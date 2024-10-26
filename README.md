@@ -18,12 +18,12 @@
 
 ## <a name="introduction">🤖 Introduction</a>
 
-This is a simple react demo project while I'm learning this
+This is a video streaming platfrom
 
 ## <a name="tech-stack">⚙️ Tech Stack</a>
 
   <div>
-    <img src="https://img.shields.io/badge/-React_JS-black?style=for-the-badge&logoColor=61DAFB&logo=react&color=000000" alt="reactdotjs" />
+    
   </div> <br/>
 
 
