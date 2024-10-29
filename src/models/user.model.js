@@ -19,7 +19,7 @@ const userSchema = new Schema(
       lowercase: true,
       trim: true,
     },
-    fullname: {
+    fullName: {
       type: String,
       require: true,
       trim: true,
@@ -99,4 +99,4 @@ userSchema.methods.generateRefressToken = async function () {
   }
 };
 
-export const videoModel = mongoose.model("User", userSchema);
+export const User = mongoose.model("User", userSchema);
