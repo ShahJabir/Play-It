@@ -102,7 +102,7 @@ const registerUser = asyncHandler(async (req, res) => {
 const loginUser = asyncHandler(async (req, res) => {
   // Get and verify Login Data From Frontend
   const [username, email, password] = req.body();
-  if (!username || !email) {
+  if (!(username || email)) {
     throw new ApiError(400, "Username or Email and Password required");
   }
   if (!password) {
